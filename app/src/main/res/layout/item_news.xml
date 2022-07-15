@@ -6,6 +6,7 @@
     android:layout_marginTop="20dp"
     android:background="@drawable/rounded_background_news">
         <ImageView
+            android:id="@+id/ivNews"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/blank_img"
@@ -15,18 +16,24 @@
             android:scaleType="centerCrop" />
 
         <TextView
+            android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title"
             android:layout_marginLeft="15dp"
-            android:textSize="20dp"/>
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/nunito_bold"/>
 
         <TextView
+            android:id="@+id/tvDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/description"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_marginBottom="15dp"
-            android:textSize="17dp"/>
+            android:textSize="15dp"
+            android:fontFamily="@font/rubik_regular"/>
 
     </LinearLayout>

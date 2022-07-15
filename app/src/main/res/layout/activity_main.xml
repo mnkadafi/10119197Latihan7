@@ -13,46 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Science News"
-        android:textSize="28dp"/>
+        android:textSize="28dp"
+        android:paddingBottom="15dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_news"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_news"/>
-
-
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:background="@drawable/rounded_background_news">-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/blank_img"-->
-<!--            android:layout_margin="15dp"-->
-<!--            android:background="@drawable/round_outline"-->
-<!--            android:clipToOutline="true"-->
-<!--            android:scaleType="centerCrop" />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/title"-->
-<!--            android:layout_marginLeft="15dp"-->
-<!--            android:textSize="24dp"/>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/description"-->
-<!--            android:layout_marginLeft="15dp"-->
-<!--            android:layout_marginBottom="15dp"-->
-<!--            android:textSize="18dp"/>-->
-
-<!--    </LinearLayout>-->
 
 </LinearLayout>

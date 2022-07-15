@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/progress_animation.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/round_outline.xml" value="0.1585" />
         <entry key="app/src/main/res/drawable/rounded_background_news.xml" value="0.1585" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3132788395536119" />
